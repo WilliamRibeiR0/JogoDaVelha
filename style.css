@@ -1,0 +1,79 @@
+*{
+
+}
+
+.mostrador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#imgMostrador{
+  margin: 20px;
+}
+
+.espaco{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabuleiro{
+  width: 312px;
+  height: 312px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img{
+  height: 95px;
+}
+
+/* //////////////////////////////// TESTE ///////////////////////////////////// */
+
+#a1{
+  border-top: 2px solid rgb(255, 255, 255);
+  border-left:2px solid rgb(255, 255, 255) ;
+}
+
+#b1{
+  border-left:2px solid rgb(255, 255, 255) ;
+ }
+
+#c1{
+  border-left:2px solid rgb(255, 255, 255) ;
+  border-bottom:2px solid rgb(255, 255, 255) ;
+ }
+
+#a2{
+  border-top: 2px solid rgb(255, 255, 255);
+ }
+
+#a3{
+  border-top: 2px solid rgb(255, 255, 255);
+  border-right:2px solid rgb(255, 255, 255) ;
+ }
+
+#b3{
+  border-right:2px solid rgb(255, 255, 255) ;
+ }
+
+#c2{
+  border-bottom:2px solid rgb(255, 255, 255) ;
+ }
+
+#c3{
+  border-bottom:2px solid rgb(255, 255, 255) ;
+  border-right:2px solid rgb(255, 255, 255) ;
+ }
+ 
